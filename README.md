@@ -116,6 +116,11 @@ To install:
 
 Additionally the target vertex count can be specified. This is not a hard constraint but a rough vertex count the method aims to create. This target is ignored if the remesher is set to `none`.
 
+# Docker RUN ONLY CPU
+Docker build -t stable-fast-3d -f Dockerfile .
+Docker run -it -p 8000:8000 stable-fast-3d
+
+
 ## Citation
 ```BibTeX
 @article{sf3d2024,
